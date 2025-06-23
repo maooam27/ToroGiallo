@@ -1,0 +1,68 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "tg:whale",
+            "is_summonable": true,
+            "is_spawnable": true,
+            "is_experimental": false,
+            "is_hidden": false,
+            "is_ambient": false,
+            "is_baby": false
+        },
+        "components": {
+            "minecraft:health": {
+                "value": 100.0
+            },
+            "minecraft:scale": {
+                "value": 1.5
+            },
+            "minecraft:physics": {
+                "has_collision": true,
+                "has_gravity": true
+            },
+            "minecraft:nameable": {
+                "allow_name_tag_renaming": true,
+                "always_show": false
+            },
+            "minecraft:movement": {
+                "value": 0.25
+            },
+            "minecraft:movement.basic": {
+                "max_turn": 30
+            },
+            "minecraft:jump.static": {
+                "jump_power": 0.42
+            },
+            "minecraft:navigation.walk": {
+                "can_path_over_water": true,
+                "avoid_water": false,
+                "can_jump": true,
+                "can_sink": false,
+                "is_amphibious": true,
+                "can_walk": true,
+                "can_swim": true
+            },
+            "minecraft:behavior.tempt": {
+                "can_get_scared": false,
+                "can_tempt_while_ridden": true,
+                "can_tempt_vertically": true,
+                "items": ["minecraft:diamond"],
+                "within_radius": 7.0,
+                "priority": 1,
+                "speed_multiplier": 1.4
+            },
+            "minecraft:behavior.random_stroll": {
+                "interval": 120,
+                "xz_dist": 10,
+                "y_dist": 7,
+                "priority": 3,
+                "speed_multiplier": 0.8
+            },
+            "minecraft:experience_reward": {
+                "on_bred": 0,
+                "on_death": 8
+            }
+        }
+    }
+}
