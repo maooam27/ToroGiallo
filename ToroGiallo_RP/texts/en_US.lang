@@ -1,4 +1,6 @@
 entity.tg:whale.name=Whale
 item.spawn_egg.entity.tg:whale.name=Whale Spawn Egg
 
-tile.tg:die.name=Dice block
+tile.tg:dice.name=Dice block
+
+tile.tg:ps5.name=PS5

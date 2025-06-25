@@ -24,6 +24,9 @@
     }, 
     "die_red": { 
       "textures": "textures/blocks/dice_red" 
-    } 
+    },
+    "ps5": { 
+      "textures": "textures/blocks/ps5" 
+    }
   } 
 } 

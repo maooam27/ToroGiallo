@@ -1,0 +1,19 @@
+{
+    "format_version": "1.19.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "tg:ps5",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:geometry": "geometry.ps5",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "ps5"
+                }
+            }
+        }
+    }
+}
