@@ -6,6 +6,9 @@
     },
     "wrench_icon": {
       "textures": "textures/items/wrench_icon"
+    },
+    "crown_icon": {
+      "textures": "textures/items/crown_icon"
     }
   }
 }
