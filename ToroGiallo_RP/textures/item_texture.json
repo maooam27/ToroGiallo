@@ -1,0 +1,11 @@
+{
+  "resource_pack_name": "Goo Resource Pack",
+  "texture_data": {
+    "goo": {
+      "textures": "textures/items/goo"
+    },
+    "wrench_icon": {
+      "textures": "textures/items/wrench_icon"
+    }
+  }
+}

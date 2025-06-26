@@ -4,3 +4,7 @@ item.spawn_egg.entity.tg:whale.name=Whale Spawn Egg
 tile.tg:dice.name=Dice block
 
 tile.tg:ps5.name=PS5
+
+item.tg:goo=Weird Goo
+
+item.tg:wrench=Wrench
