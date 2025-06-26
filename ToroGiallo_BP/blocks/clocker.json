@@ -1,0 +1,32 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "tg:clocker",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:geometry": "geometry.clocker",
+            "minecraft:material_instances": {
+                "*": { 
+                    "texture": "clocker"
+                 }
+            },
+            "minecraft:light_emission": 12,
+            "minecraft:redstone_conductivity": {
+                "redstone_conductor": true,
+                "allows_wire_to_step_down": false
+            },
+            "minecraft:tick": {
+                "interval_range": [180, 190],
+                "looping": true
+            },
+            "minecraft:collision_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 12, 16]
+            }
+        }
+    }
+}

@@ -8,3 +8,7 @@ tile.tg:ps5.name=PS5
 item.tg:goo=Weird Goo
 
 item.tg:wrench=Wrench
+
+item.tg:crown =Crown
+
+tile.tg:clocker.name=Clocker
