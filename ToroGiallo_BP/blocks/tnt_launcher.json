@@ -11,6 +11,15 @@
                     "enabled_states": ["minecraft:cardinal_direction"],
                     "y_rotation_offset": 180
                 }
+            },
+            "states": {
+                "tg:loaded": {
+                    "values": {
+                        "min": 0,
+                        "max": 15
+                    }
+                },
+                "tg:active": [true, false]
             }
         },
         "components": {
