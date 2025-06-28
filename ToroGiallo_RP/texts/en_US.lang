@@ -9,6 +9,8 @@ item.tg:goo=Weird Goo
 
 item.tg:wrench=Wrench
 
-item.tg:crown =Crown
+item.tg:crown=Crown
 
 tile.tg:clocker.name=Clocker
+
+tile.tg:tnt_launcher.name=TNT Launcher

@@ -30,6 +30,9 @@
     },
     "clocker": {
       "textures": "textures/blocks/clockker" 
+    },
+    "tnt_launcher": {
+      "textures": "textures/blocks/tnt_launcher" 
     }
   } 
 } 
