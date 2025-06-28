@@ -14,12 +14,23 @@
             "type": "data",
             "uuid": "1b85a99a-bfeb-481d-8a77-b5cda182e7d3",
             "version": [1, 0, 0]
+        },
+        {
+          "description": "Test scripting",
+          "type": "script",
+          "version": [1, 0, 0],
+          "uuid": "f41749cc-21e2-4c14-9707-5b8d9fc4ee3f",
+          "entry": "main.js"
         }
       ],
     "dependencies": [
       {
        "uuid":"8aa5af98-1ed0-447b-982b-e82b855a040d",
         "version":[1,0,0]
+      },
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.19.0"
       }
    ]
   }
